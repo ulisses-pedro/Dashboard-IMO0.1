@@ -1,7 +1,7 @@
 import{ ChartOverview } from "@/components/chart";
 import{ Sales } from "@/components/sales";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { DollarSign, Users, Percent } from "lucide-react";
+import { Users, Percent, Shield, Loader, HandHeart, Handshake } from "lucide-react";
 
 export default function Home() {
   return (
@@ -11,18 +11,18 @@ export default function Home() {
           <CardHeader>
             <div className="flex items-center justify-center">
               <CardTitle className="text-lg sm:text-xl text-gray-800">
-                Total Vendas
+              Feedback do projeto
               </CardTitle>
-              <DollarSign className="ml-auto w-4 h-4"/>
+              <Shield className="ml-auto w-4 h-4"/>
             </div>
 
             <CardDescription>
-              Total vendas em 90 dias
+            Feedback sobre o projeto
             </CardDescription>
           </CardHeader>
 
           <CardContent>
-            <p className="text">R$ 40.000</p>
+            <p className="text">4 Feedbacks</p>
           </CardContent>
         </Card>
 
@@ -30,18 +30,18 @@ export default function Home() {
           <CardHeader>
             <div className="flex items-center justify-center">
               <CardTitle className="text-lg sm:text-xl text-gray-800">
-                Novos clientes
+              Feedback Recente
               </CardTitle>
               <Users className="ml-auto w-4 h-4"/>
             </div>
 
             <CardDescription>
-            Novos clientes em 90 dias
+            Feedback dos membros
             </CardDescription>
           </CardHeader>
 
           <CardContent>
-            <p className="text">234</p>
+            <p className="text">34 membros</p>
           </CardContent>
         </Card>
 
@@ -49,13 +49,13 @@ export default function Home() {
           <CardHeader>
             <div className="flex items-center justify-center">
               <CardTitle className="text-lg sm:text-xl text-gray-800">
-                Pedidos hoje 
+              Metas e Progresso
               </CardTitle>
-              <Percent className="ml-auto w-4 h-4"/>
+              <Loader className="ml-auto w-4 h-4"/>
             </div>
 
             <CardDescription>
-            Total Pedidos hoje 
+            Metas estabelecidas para o time e o progresso atual 
             </CardDescription>
           </CardHeader>
 
@@ -68,18 +68,56 @@ export default function Home() {
           <CardHeader>
             <div className="flex items-center justify-center">
               <CardTitle className="text-lg sm:text-xl text-gray-800">
-                Total Pedidos
+              Conquistas Recentes
               </CardTitle>
               <Percent className="ml-auto w-4 h-4"/>
             </div>
 
             <CardDescription>
-            Total Pedidos em 30 dias 
+            Quantidade de projetos concluidos
             </CardDescription>
           </CardHeader>
 
           <CardContent>
-            <p className="text">2300</p>
+            <p className="text">1 projeto concluido</p>
+          </CardContent>
+        </Card>
+        
+        <Card>
+          <CardHeader>
+            <div className="flex items-center justify-center">
+              <CardTitle className="text-lg sm:text-xl text-gray-800">
+              Ações Afirmativas
+              </CardTitle>
+              <HandHeart className="ml-auto w-4 h-4"/>
+            </div>
+
+            <CardDescription>
+           *******************
+            </CardDescription>
+          </CardHeader>
+
+          <CardContent>
+            <p className="text">1 Ação afirmativa: Mulheres</p>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <div className="flex items-center justify-center">
+              <CardTitle className="text-lg sm:text-xl text-gray-800">
+              Representatividade
+              </CardTitle>
+              <Handshake className="ml-auto w-4 h-4"/>
+            </div>
+
+            <CardDescription>
+           *******************
+            </CardDescription>
+          </CardHeader>
+
+          <CardContent>
+            <p className="text">Membros da Comunidade</p>
           </CardContent>
         </Card>
       </section>

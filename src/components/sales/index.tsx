@@ -1,4 +1,4 @@
-import { CircleDollarSign } from "lucide-react";
+import { Boxes } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 
@@ -8,9 +8,9 @@ export function Sales() {
             <CardHeader>
                 <div className= "flex items-center justfy-center">
                     <CardTitle className="text-lg sm:text-xl text-gray-800">
-                        Ultimos clientes
+                        Nossos Times
                     </CardTitle>
-                    <CircleDollarSign className="ml-auto w-4 h-4"/>
+                    <Boxes className="ml-auto w-4 h-4"/>
                 </div>
                 <CardDescription>
                     Novos clientes mas ultimas 24 horas
@@ -20,45 +20,45 @@ export function Sales() {
             <CardContent>
                 <article className="flex items-center gap-2 border-b py-2">
                     <Avatar className="w-8 h-8">
-                        <AvatarImage src="https://github.com/ulisses-pedro.png"/>
-                        <AvatarFallback>DV</AvatarFallback>
+                        <AvatarImage src="Adicionar o link da foto ou o camionho da imagem"/>
+                        <AvatarFallback>NR</AvatarFallback>
                     </Avatar>
                     <div>
-                        <p className="text-sm sm:text-base font-semibold">Sujeito Programador</p>
-                        <span className="text-[12px] sm:text-sm text-gray-400">teste@teste.com</span>
+                        <p className="text-sm sm:text-base font-semibold">Nufilebox Reverse</p>
+                        <span className="text-[12px] sm:text-sm text-gray-400">nufileboxreverse@gmail.com</span>
                     </div>
                 </article>
 
                 <article className="flex items-center gap-2 border-b py-2">
                     <Avatar className="w-8 h-8">
-                        <AvatarImage src="https://github.com/ulisses-pedro.png"/>
-                        <AvatarFallback>DV</AvatarFallback>
+                        <AvatarImage src="Adicionar o link da foto ou o camionho da imagem"/>
+                        <AvatarFallback>OT</AvatarFallback>
                     </Avatar>
                     <div>
-                        <p className="text-sm sm:text-base font-semibold">Sujeito Programador</p>
-                        <span className="text-[12px] sm:text-sm text-gray-400">teste@teste.com</span>
+                        <p className="text-sm sm:text-base font-semibold">Observability Tool</p>
+                        <span className="text-[12px] sm:text-sm text-gray-400">observabilitytool@gmail.com</span>
                     </div>
                 </article>
 
                 <article className="flex items-center gap-2 border-b py-2">
                     <Avatar className="w-8 h-8">
-                        <AvatarImage src="https://github.com/ulisses-pedro.png"/>
+                        <AvatarImage src="Adicionar o link da foto ou o camionho da imagem"/>
                         <AvatarFallback>DV</AvatarFallback>
                     </Avatar>
                     <div>
-                        <p className="text-sm sm:text-base font-semibold">Sujeito Programador</p>
-                        <span className="text-[12px] sm:text-sm text-gray-400">teste@teste.com</span>
+                        <p className="text-sm sm:text-base font-semibold">NuConect</p>
+                        <span className="text-[12px] sm:text-sm text-gray-400">nuconect.com</span>
                     </div>
                 </article>
 
                 <article className="flex items-center gap-2 border-b py-2">
                     <Avatar className="w-8 h-8">
-                        <AvatarImage src="https://github.com/ulisses-pedro.png"/>
-                        <AvatarFallback>DV</AvatarFallback>
+                        <AvatarImage src="Adicionar o link da foto ou o camionho da imagem"/>
+                        <AvatarFallback>ESG</AvatarFallback>
                     </Avatar>
                     <div>
-                        <p className="text-sm sm:text-base font-semibold">Sujeito Programador</p>
-                        <span className="text-[12px] sm:text-sm text-gray-400">teste@teste.com</span>
+                        <p className="text-sm sm:text-base font-semibold">ESG</p>
+                        <span className="text-[12px] sm:text-sm text-gray-400">esg@gmail.com</span>
                     </div>
                 </article>
             </CardContent>
