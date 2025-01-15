@@ -54,11 +54,22 @@ export function Sales() {
                 <article className="flex items-center gap-2 border-b py-2">
                     <Avatar className="w-8 h-8">
                         <AvatarImage src="Adicionar o link da foto ou o camionho da imagem"/>
-                        <AvatarFallback>ESG</AvatarFallback>
+                        <AvatarFallback>MC</AvatarFallback>
                     </Avatar>
                     <div>
-                        <p className="text-sm sm:text-base font-semibold">ESG</p>
+                        <p className="text-sm sm:text-base font-semibold">Micreditt</p>
                         <span className="text-[12px] sm:text-sm text-gray-400">esg@gmail.com</span>
+                    </div>
+                </article>
+
+                <article className="flex items-center gap-2 border-b py-2">
+                    <Avatar className="w-8 h-8">
+                        <AvatarImage src="Adicionar o link da foto ou o camionho da imagem"/>
+                        <AvatarFallback>NF</AvatarFallback>
+                    </Avatar>
+                    <div>
+                        <p className="text-sm sm:text-base font-semibold">Nufinance</p>
+                        <span className="text-[12px] sm:text-sm text-gray-400">Nufinance@gmail.com</span>
                     </div>
                 </article>
             </CardContent>
